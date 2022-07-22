@@ -1,10 +1,10 @@
 body{
-    background-color:#A7DD61;
+    background-color:#011638;
 }
 
 .header {
-    background-color: #75A3B2;
-    color: #F6B7A2;
+    background-color: #141414;
+    color: #EEC643;
     padding: 10px;
 }
 
@@ -17,14 +17,13 @@ h1{
     justify-content: center;
     display:flex;
     font-family:'Pacifico', cursive;    
+    font-size: 250%;
 }
 
-.description{
-     display: flex;   
-    justify-content: center;
-    justify-content: space-around;
-    
-    
+
+.main{
+    display: flex;   /*vertical*/
+	justify-content: center; /*centrally justified*/   
 }
 
 
@@ -43,35 +42,10 @@ h1{
     margin: 15px;
 }
 
-.button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
+
+.button:hover {
+    background-color:#0D21A1;
 }
 
-.button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-}
 
-.button:hover span {
-    padding-right: 25px;
-}
 
-.button:hover span:after {
-    opacity: 1;
-    right: 0;
-}
-
-/*button stuff*/
-.menu1 {
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    margin-top: -40px;
-}
